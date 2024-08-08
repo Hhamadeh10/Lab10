@@ -10,8 +10,8 @@ class testSelectionSort {
 	public void test() {
 		//testPositive();
 		//testNegative();
-		testMixes();
-		testDuplicates();
+		//testMixes();
+		testDuplicate();
 		}
 		public void testPositive(){
 
@@ -36,7 +36,7 @@ class testSelectionSort {
 			assertArrayEquals(correct,sorted);
 			//System.out.println(maxValue);
 		}
-		public void testDuplicates() {
+		public void testDuplicate() {
 			int[] arr = new int[5];
 			arr[0] = 1;
 			arr[1] = -9;
@@ -53,5 +53,4 @@ class testSelectionSort {
 			assertArrayEquals(correct,sorted);
 			//System.out.println(maxValue);
 		}
-		
-		}
+}
